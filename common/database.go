@@ -6,7 +6,7 @@ import (
 	"xietong.me/ginessential/model"
 )
 
-//var DB *gorm.DB
+var DB *gorm.DB
 
 func InitDB() *gorm.DB {
 	driverName := "mysql"
@@ -32,6 +32,6 @@ func InitDB() *gorm.DB {
 	return db
 }
 
-//func GetDB() *gorm.DB {
-//	return DB
-//}
+func GetDB() *gorm.DB {
+	return DB
+}
