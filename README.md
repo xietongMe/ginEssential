@@ -47,5 +47,3 @@ $ cd ginEssential
 $ go run main.go
 ```
 
-## 代码片段
-#### 
