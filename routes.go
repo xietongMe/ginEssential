@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
-	"xietong.me/ginessential/controller"
-	"xietong.me/ginessential/middleware"
+"github.com/gin-gonic/gin"
+"xietong.me/ginessential/controller"
+"xietong.me/ginessential/middleware"
 )
 
 func CollectRoute(r *gin.Engine) *gin.Engine {
